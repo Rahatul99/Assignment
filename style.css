@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+/* font-family: 'Open Sans', sans-serif;(***here is a problem when added font-family banner background image arent showing at webpage)  */
+/* style for banner section */
+.banner{
+    background-image: url(new-year-new-me/images/banner/banner1.png);
+    width: 1600px;
+    height: 800px;
+}
+.banner-text{
+        margin:0px 845px;
+        padding-top:200px;
+        width: 1260px;
+        margin-bottom: 166px;
+}
+.banner-head{
+    width: 525px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+}
+.banner-paragraph{
+    width: 400px;
+    height: 78px;
+    left: 876px;
+    top: 468px;
+    margin-left: 120px;
+    text-align: right;
+}
+:hover.btn a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+.btn{
+    height: 64px;
+    width: 160px;
+    border-radius: 5px;
+    border: none;
+    color: aliceblue;
+    background-color: orangered;
+    margin-left: 350px;
+
+}
+
+/* main section start here */
+.container-1{
+    display: flex;
+}
+.container1a{
+    height: 723.2998046875px;
+    width: 569px;
+    border-radius: 0px;
+    margin:131px 50px 0 206px;
+}
+.container1b{
+    height: 400px;
+    width: 416px;
+    border-radius: 0px;
+    margin:390px 309px 0 50px;
+}
+.container1c{
+    width: 250px;
+    border-radius: nullpx;
+    padding-bottom: 24px;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.container1d{
+    width: 416px;
+    border-radius: nullpx;
+    padding-bottom: 16px;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.container1e{
+    height: 162px;
+    width: 349px;
+    left: 884px;
+    top: 1436px;
+    border-radius: 0px;
+
+}
+.container1e li{
+    height: 26px;
+    width: 349px;
+    left: 884px;
+    top: 1436px;
+    border-radius: 0px;
+}
+
+
+
+
+
+
+
+.container-2{
+    width: 800px;
+    border-radius: 0px;
+
+}
+
+.container2a{
+    height: 47px;
+    width: 179px;
+    border-radius: nullpx;
+    margin: 70px 0px 0 700px;
+
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.container2b{
+    display: flex;
+    justify-content: space-around;
+    width: 1100px;
+    border-radius: 0px;
+    padding-top: 100px;
+    margin-left: 220px;
+
+}
+.container2img{
+    height: 92px;
+    width: 92px;
+    border-radius: 0px;
+}
+.container2bhead{
+    text-align: center;
+    border-radius: nullpx;
+
+}
+.container2txt{
+    border-radius: nullpx;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: center;
+
+
+}
+
+
+/* style for container 3 */
+.container-3{
+    background-image: url(new-year-new-me/images/watch.png);
+    position: relative;
+    height: 200px;
+    width: 1140px;
+    left: 230px;
+    margin-top: 40px;
+    margin-left: 0px;
+    border-radius: 8px;
+
+}
+.container3a{
+    width: 459px;
+    height: 165px;
+    border-radius: 5px;
+    padding-top: 35px;
+    padding-left: 64px;
+    position: absolute;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+}
+.container3b{
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: aliceblue;
+
+}
+.container3btn{
+    width: 150px;
+    height: 45px;
+    border-radius: 5px;
+    margin-bottom: 200px;
+    border: none;
+    background-color: white;
+    color: orangered;
+    margin-top: 10px;
+
+}
+
+/* style for footer */
+footer{
+    width: 1600px;
+    height: 577px;
+    background-color: black;
+    color: aliceblue;
+    padding-top: 20px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.future{
+    height: 317px;
+    width: 485px;
+    left: 230px;
+    top: 2782.25830078125px;
+    border-radius: 0px;
+    padding-top: 130px;
+    padding-left: 240px;
+
+}
+.subscribe{
+    height: 204px;
+    width: 325px;
+    left: 1046px;
+    top: 2782.25830078125px;
+    border-radius: 8px;
+    padding-top: 130px;
+    padding-right: 170px;
+
+}
+.future-a{
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 53px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    height: 78px;
+    width: 485px;
+    left: 230px;
+    top: 2851.25830078125px;
+    border-radius: nullpx;
+
+
+}
+.future-b{
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    height: 78px;
+    width: 485px;
+    left: 230px;
+    top: 2851.25830078125px;
+    border-radius: nullpx;
+    padding-bottom: 30px;
+
+
+}
+.future-c{
+    width: 184px;
+    border-radius: nullpx;
+    padding-bottom: 30px;
+    display: inline-block;
+    padding-bottom: 30px;
+
+}
+.future-d{
+    width: 184px;
+    border-radius: nullpx;
+    padding-bottom: 60px;
+
+}
+.future-e{
+    height: 46px;
+    width: 175px;
+    left: 230px;
+    top: 3053.25830078125px;
+    border-radius: 0px;
+    padding-top: 50px;
+
+}
+.future-eb{
+    padding-right: 7px;
+}
+.future-ec{
+    padding-left: 7px;
+}
+.future-ea{
+    padding-right: 7px;
+}
+
+
+
+.subscribe{
+    height: 204px;
+width: 325px;
+left: 1046px;
+top: 2782.25830078125px;
+border-radius: 8px;
+
+}
+.subscribe-a{
+    font-family: Work Sans;
+font-size: 25px;
+font-weight: 600;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+border-radius: nullpx;
+padding-bottom: 20px;
+}
+.subscribe-input{
+border-radius: 8px;
+background: black;
+color: aliceblue;
+
+height: 30px;
+width: 150px;
+}
+.subscribe-btn{
+    margin-top: 5px;
+    margin-left: 0;
+    background-color: aliceblue;
+    color: orangered;
+    height: 40px;
+    width: 150px;
+}
